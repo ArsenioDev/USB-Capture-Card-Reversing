@@ -15,11 +15,10 @@ First dumps uploaded from "USB3.0 Video Capture HDMI 4K" that enumerate as eEver
 * USB_U9_dump.bin confimed to be the EJ511 USB UVC ASIC configuration memory 
 
 
-Binwalk entropy graph U6
+Binwalk entropy graph U6(HDMI receiver)
+
 ![Image](USB3_U6.png) 
 
-Binwalk entropy graph U9 (USB 2.0 MJPEG) 
-![Image](USB3_U9.png) 
 
-Binwalk entropy graph U9 (USB 3.0 YUY) 
-![Image](USB3_Working_U9 _dump.png)
+Binwalk comparison of U9 dumps (USB camera ASIC)
+![Image](U9_entropy_compare..png)
