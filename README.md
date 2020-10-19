@@ -9,10 +9,18 @@ First dumps uploaded from "USB3.0 Video Capture HDMI 4K" that enumerate as eEver
 ![Image](Board Top.jpg)
 ![Image](Board Bottom.jpg) 
 
- ## NOTES
-* USB_U9_dump.bin is from my units that do NOT enumerate on USB3, only linking on USB 2.0 High Speed (480MBS), 90% sure it's the configuration for the EJ511 USB 3.0 UVC IC. 
+## Signal path 
+HDMI Input -> MST097B
+
+MST097B-1> IT661221FN -> HDMI Output
+
+MST097B-2> EJ511 -> USB 3.0 Output 
+
+
+## NOTES
+* USB_U9_dump.bin is from my units that do NOT enumerate on USB3, only linking on USB 2.0 High Speed (480MBS).
 * USB_U6_dump.bin is 100% the MStar MST097B HDMI RX ASIC configuration. 
-* USB_U9_dump.bin confimed to be the EJ511 USB UVC ASIC configuration memory 
+* USB_U9_dump.bin confimed to be the EJ511 USB UVC ASIC configuration memory. 
 
 
 Binwalk entropy graph U6(HDMI receiver)
